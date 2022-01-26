@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Korea</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    
+</head>
+<body>
+
+<header>
+    <nav class="navbar" id="navbar">
+         <a href="#" class="navbar-brand">Explore <i class="fas fa-route"></i> Korea</a>
+         <div class="menuToggle" onclick="toggleMenu()"></div>
+         <ul class="navigation">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#highlight">Highlight</a></li>
+             <li><a href="#destinations">Destinations</a></li>
+             <li><a href="#blogs">Blogs</a></li>
+         </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="content" id="home">
+        <!-- slider -->
+         <article class="home">
+            <div class="overlay"></div>
+            <div class="content">
+                <h2>Behind the Scenes of "True Beauty"</h2>
+                <p>Continue feeling "True Beauty" with a visit to the drama's filming locations</p>
+                <!-- <a class="btn" href="#">View More</a> -->
+            </div> 
+        </article>
+
+        <!-- About -->
+        <article class="about" id="about">
+            <div class="row">
+                <div class="col150">
+                    <h2 class="about-title"><span>About</span> South Korea</h2>
+                    <p><span>South</span> Korea, officially the Republic of Korea (ROK), is a country in East Asia, constituting the southern part of the Korean Peninsula, and sharing a land border with North Korea. About 25 million people, around half of the country's population of 51 million, live in the Seoul Capital Area.</p>
+
+                    <p><span>The</span> Korean Peninsula was inhabited as early as the Lower Paleolithic period. Its first kingdom was noted in Chinese records in the early 7th century BCE. Following the unification of the Three Kingdoms of Korea into Silla and Balhae in the late 7th century, Korea was ruled by the Goryeo dynasty (918–1392) and the Joseon dynasty (1392–1897). The succeeding Korean Empire was annexed into the Empire of Japan in 1910. After World War II, Korea was divided into two zones; a northern zone occupied by the Soviet Union and a southern zone occupied by the United States. After negotiations on reunification failed, the latter became the Republic of Korea in August 1948 while the former became North Korea.</p>
+                </div>
+                <div class="col150">
+                    <div class="imgBx">
+                        <img src="./assets/img/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Highlight -->
+        <article class="highlight" id="highlight">
+            <div class="title">
+                <h2>Travel <span>Highlight</span></h2>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/highlight/incheon1.jpg" alt="">
+                        <div class="img-overlay">
+                            <p class="img-desc">Feel the Rhythm of KOREA in Incheon</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/highlight/busan.jpg" alt="">
+                        <div class="img-overlay">
+                            <p class="img-desc">Finding the best views at Busan cafes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/highlight/seoul.jpg" alt="">
+                        <div class="img-overlay">
+                            <p class="img-desc">Serenity Surrounding Seoul</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <a class="btn" href="#">View More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- Destination -->
+        <article class="destination" id="destinations">
+            <div class="title">
+                <h2><span>Destinations</span> By Region</h2>
+            </div>
+            <div class="content">
+                <div class="wrapper">
+                    <h3>Seoul</h3>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/img/destination/seoul-lotte-tower.png" alt="" class="first-img">
+                            <img src="./assets/img/destination/seoul-starfield-library.jpg" alt="" class="second-img">
+                        </div>
+                        <div class="text">
+                            <h3 class="first-text">Lotte Tower</h3>
+                            <h3 class="second-text">Seoul Starfield Library</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <h3>Gangwon-do</h3>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/img/destination/gangwondo-naksan.jpg" alt="" class="first-img">
+                            <img src="./assets/img/destination/gangwondo-elysian-ski-resort.jpg" alt="" class="second-img">
+                        </div>
+                        <div class="text">
+                            <h3 class="first-text">Naksan Beach</h3>
+                            <h3 class="second-text">Elysian Ganchon Ski Resort</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <h3>ChungCheong-do</h3>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/img/destination/chungcheongdo-danyang.jpg" alt="" class="first-img">
+                            <img src="./assets/img/destination/chungcheongdo-cheongpung.jpg" alt="" class="second-img">
+                        </div>
+                        <div class="text">
+                            <h3 class="first-text">Danyang Tourist Zone</h3>
+                            <h3 class="second-text">Cheongpung Lake Monorail</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <h3>Gyeongsang-do</h3>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/img/destination/gyeongsangdo-wojeonggyo-bridge.jpg" alt="" class="first-img">
+                            <img src="./assets/img/destination/gyeongsangdo-temple.jpg" alt="" class="second-img">
+                        </div>
+                        <div class="text">
+                            <h3 class="first-text">Woljeonggyo Bridge</h3>
+                            <h3 class="second-text">Gyeongju Bulguksa Temple</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <h3>Jeolla-do</h3>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/img/destination/jeolla-do-jirisan.jpg" alt="" class="first-img">
+                            <img src="./assets/img/destination/jeolla-do-daehan-dawon.jpg" alt="" class="second-img">
+                        </div>
+                        <div class="text">
+                            <h3 class="first-text">Jirisan National Park</h3>
+                            <h3 class="second-text">Dawon Tea Plantation</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <h3>Jeju Island</h3>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/img/destination/jeju-cheonjiyeon.jpg" alt="" class="first-img">
+                            <img src="./assets/img/destination/jeju-sanbangsan.jpg" alt="" class="second-img">
+                        </div>
+                        <div class="text">
+                            <h3 class="first-text">Cheonjiyeonpokpo Falls</h3>
+                            <h3 class="second-text">Sanbansangsan Mountain</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <a class="btn" href="#">View More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- Blog -->
+        <article class="blog" id="blogs">
+            <div class="title">
+                <h2>Travel <span>Blogs</span></h2>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/blog/qr-code.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Use This QR Code for Hangang Park Info</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/blog/tourism contest.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>2021 Korea Tourism Contest Opens for Travel Souvenirs and Photos</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/blog/mistranslate.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Report Mistranslated Tourism Sings!</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="./assets/img/blog/popup store.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Pop-up Store for Intangible Cultural Asets</h3>
+                    </div>
+                </div>
+                
+                
+
+                <div class="title">
+                    <a class="btn" href="#">View More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Contact -->
+        <article class="contact" id="contact">
+            <div class="container">
+                <div class="title">
+                    <h2>Top <span>Keyword</span></h2>
+                </div>
+                <div class="keyword">
+                    <div class="key">
+                        <p>#nature travel</p>
+                    </div>
+                    <div class="key">
+                        <p>#mountain</p>
+                    </div>
+                    <div class="key">
+                        <p>#hiking tracking</p>
+                    </div>
+                    <div class="key">
+                        <p>#Seoul suburbs</p>
+                    </div>
+                    <div class="key">
+                        <p>#n seoul tover</p>
+                    </div>
+                    <div class="key">
+                        <p>#hanok</p>
+                    </div>
+                    <div class="key">
+                        <p>#nami island</p>
+                    </div>
+                    <div class="key">
+                        <p>#korean visa</p>
+                    </div>
+                    <div class="key">
+                        <p>#hansik (Korean Food)</p>
+                    </div>
+                    <div class="key">
+                        <p>#ski in Korea</p>
+                    </div>
+                </div>
+            </div>
+            <aside class="biography">
+                <div class="title">
+                    <h2><span>About</span> Me</h2>
+                </div>
+                <div class="container">
+                    <div class="imgBx">
+                        <img src="./assets/img/Reza 1.png" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>Refiandi Reza Syawaldriyansah</h3>
+                    <h4>Future Front-End Web Developer</h4>
+                    <div class="socmed">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                
+            </aside>
+            <div class="clear"></div>
+        </article>
+    </div>
+</main>
+
+<footer>
+        <p>Belajar Dasar Pemrograman Web &copy; 2021, Refiandi Reza S</p>
+</footer>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
